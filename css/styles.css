@@ -50,6 +50,36 @@ ul
     list-style: none;
 }
 
+/* NAVBAR */
+
+.navbar
+{
+    background: #285185;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.navbar-nav
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link
+{
+    color: #CCD9E2 ! important;
+    margin: 0 6px;
+}
+
+.nav-link.active, .nav-link:hover
+{
+    background-color: #CCD9E2;
+    color: #285185 ! important;
+    border-radius: 9px;
+}
+
 /* ABOUT */
 
 #about
