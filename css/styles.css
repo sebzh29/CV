@@ -329,3 +329,26 @@ ul
 {
     margin-bottom: 20px;
 }
+
+/* RECOMMANDATION */
+
+#recommendation
+{
+    background-color: #CCD9E2;
+}
+
+#recommendation .heading h2
+{
+    color: #285185;
+}
+
+#myCarousel .carousel-item
+{
+    padding: 30px 30px 90px;
+}
+
+#myCarousel .carousel-item h3
+{
+    color: #285185;
+    font-style: italic;
+}
