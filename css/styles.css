@@ -36,13 +36,13 @@ section .heading h2
 {
     width: 100px;
     height: 2px;
-    background-color: #d82c2e;
+    background-color: #285185;
     margin: 0px auto 20px;
 }
 
 .divider.white
 {
-    background-color: #fff;
+    background-color: #CCD9E2;
 }
 
 ul
@@ -54,7 +54,7 @@ ul
 
 #about
 {
-    background-color: #d82c2e;
+    background-color: #285185;
 }
 
 .profile-picture
@@ -65,7 +65,7 @@ ul
 
 #about .heading h1
 {
-    color: #fff;
+    color: #CCD9E2;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
@@ -73,9 +73,9 @@ ul
 .btn1
 {
     font-weight: bold;
-    color: #fff;
+    color: #CCD9E2;
     text-transform: uppercase;
-    border: 1px solid #fff;
+    border: 1px solid #CCD9E2;
     padding: 18px 50px;
     display: inline-block;
     border-radius: 3px;
@@ -86,15 +86,20 @@ ul
 
 .btn1:hover
 {
-    background: #fff;
-    color: #d82c2e;
+    background: #CCD9E2;
+    color: #285185;
 }
 
 /* SKILLS */
 
+#skills
+{
+    background-color: #CCD9E2;
+}
+
 #skills .heading h2
 {
-    color: #d82c2e;
+    color: #285185;
 }
 
 #skills .progress
@@ -110,7 +115,7 @@ ul
 
 #skills .progress-bar
 {
-    background-color: #d82c2e;
+    background-color: #285185;
 }
 
 #skills .progress-bar h5{
@@ -122,12 +127,12 @@ ul
 
 #experience
 {
-    background-color: #d82c2e;
+    background-color: #285185;
 }
 
 #experience .heading h2
 {
-    color: #fff;
+    color: #CCD9E2;
 }
 
 .timeline
@@ -167,7 +172,7 @@ ul
 
 .timeline li .timeline-badge
 {
-    color: #d82c2e;
+    color: #285185;
     width: 50px;
     line-height: 50px;
     font-size: 20px;
@@ -176,7 +181,7 @@ ul
     top: 16px;
     left: 50%;
     margin-left: -25px;
-    background-color: #ddd;
+    background-color: #d1dddb;
     border-radius: 50%;
 }
 
@@ -202,7 +207,7 @@ ul
     padding: 20px 25px;
     position: relative;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    background: #fff;
+    background: #d1dddb;
 }
 
 .timeline-panel-container-inverted .timeline-panel
@@ -218,8 +223,8 @@ ul
     right: -14px;
     display: inline-block;
     border-top: 14px solid transparent;
-    border-left: 14px solid #fff;
-    border-right: 0 solid #fff;
+    border-left: 14px solid #CCD9E2;
+    border-right: 0 solid #CCD9E2;
     border-bottom: 14px solid transparent;
     content: " ";
 }
@@ -242,6 +247,57 @@ ul
 {
     margin-top: 5px;
     font-size: 20px;
-    color: #d82c2e;
+    color: #285185;
 }
+
+/* FORMATIONS */
+
+#formation
+{
+    background-color: #CCD9E2;
+}
+
+#formation .heading h2
+{
+    color: #285185;
+    margin: 15px 0px;
+}
+
+.formation-block
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align:  center;
+    padding: 30px;
+    background: #d1dddb;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.formation-block h5
+{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.formation-block span
+{
+    font-size: 35px;
+}
+
+.formation-block h3
+{
+    color: #285185;
+    margin: 15px 0px;
+}
+
+.formation-block h4
+{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/*  PORTFOLIO */
 
