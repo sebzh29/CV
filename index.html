@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="#">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -40,6 +41,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#recommendation">Recommandations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -224,7 +228,7 @@
                         <h3>AFPA - Quimper</h3> 
                         <h4>TOSA Numérique</h4>
                         <div class="divider"></div>
-                        <p>faudra que je complete</p>
+                        <p>Découverte du html, CSS, Php</p>
                         <p>et la aussi!!!</p>
                     </div>
                 </div>
@@ -250,8 +254,8 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="images/facebook_share.png" class="img-thumbnail" alt="nomsiimgsaffiche pas">
+                    <a href="https://snakee.sebastienglippa.com" target="_blank">
+                        <img src="images/serpent.png" class="img-thumbnail" alt="snake-game">
                     </a>
                 </div>
             </div>
@@ -312,6 +316,50 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="divider white"></div>
+            <div class="heading">
+                <h2>Contactez-moi</h2>
+            </div>
+            <form id="contact-form" method="post" action="" role="form">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label for="firstname" class="form-label">Prénom *</label>
+                        <input id="firstname" type="text" name="firstname" class="form-control" placeholder="Votre prénom">
+                        <p class="comments"></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="name" class="form-label">Nom *</label>
+                        <input id="name" type="text" name="name" class="form-control" placeholder="Votre Nom">
+                        <p class="comments"></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="email" class="form-label">Email *</label>
+                        <input id="email" type="text" name="email" class="form-control" placeholder="Votre Email">
+                        <p class="comments"></p>
+                    </div>
+                    <div class="col-lg-6">
+                        <label for="phone" class="form-label">Téléphone</label>
+                        <input id="phone" type="text" name="phone" class="form-control" placeholder="Votre Téléphone">
+                        <p class="comments"></p>
+                    </div>
+                    <div>
+                        <label for="message" class="form-label">Message *</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                        <p class="comments"></p>
+                    </div>
+                    <div>
+                        <p ><strong>* Ces informations sont requises.</strong></p>
+                    </div>
+                    <div>
+                        <input type="submit" class="btn1" value="Envoyer">
+                    </div>    
+                </div>
+            </form>
         </div>
     </section>
 

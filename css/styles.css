@@ -50,6 +50,27 @@ ul
     list-style: none;
 }
 
+.btn1
+{
+    font-weight: bold;
+    color: #CCD9E2;
+    text-transform: uppercase;
+    border: 1px solid #CCD9E2;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+}
+
+.btn1:hover
+{
+    background: #CCD9E2;
+    color: #285185;
+}
+
 /* NAVBAR */
 
 .navbar
@@ -98,26 +119,6 @@ ul
     color: #CCD9E2;
     text-transform: uppercase;
     margin-bottom: 20px;
-}
-
-.btn1
-{
-    font-weight: bold;
-    color: #CCD9E2;
-    text-transform: uppercase;
-    border: 1px solid #CCD9E2;
-    padding: 18px 50px;
-    display: inline-block;
-    border-radius: 3px;
-    text-decoration: none;
-    margin-top: 20px;
-    transition: all 0.3s ease-in 0s;
-}
-
-.btn1:hover
-{
-    background: #CCD9E2;
-    color: #285185;
 }
 
 /* SKILLS */
@@ -407,4 +408,47 @@ footer h5
 {
     color: #d1dddb;
     font-weight: normal;
+}
+
+/* CONTACT */
+
+#contact
+{
+    background-color: #285185;
+}
+
+#contact .heading h2
+{
+    color: #CCD9E2;
+
+}
+
+#contact-form {
+    font-size: 20px;
+    color: #CCD9E2;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+
+#contact-form .thank-you {
+    color: #CCD9E2;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
